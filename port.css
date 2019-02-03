@@ -1,0 +1,196 @@
+body{
+    overflow-x: hidden;
+    font-family: 'lato', sans-serif;
+    
+
+}
+.offset:before{
+    height: 4rem;
+    margin-top: -4rem;
+    content: "";
+    display: block;
+}
+.navbar-brand img{
+    height: 2rem;
+}
+
+.bg-dark{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.navigation {
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+}
+
+.navbar-nav li{
+    padding-right: 2rem;
+}
+
+.navigation .nav-link:hover{
+    color: rgb(226, 93, 93)!important;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100vh !important;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+    font-size: 400%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.carousel-caption .btn-primary{
+    background: purple;
+    border: 1px solid  black;
+}
+ .carousel-caption .btn-primary:hover{
+    background-color: black;
+    border: none;
+    text-shadow: 1px 1px 15px red;  
+    
+} 
+.carousel-caption .abc{
+    background-color: black;
+}
+
+.carousel-caption button{
+    margin-top: 1rem;
+}
+
+.tab-control .previous-button, .tab-control .next-button{
+    position: absolute;
+    top: 45%;
+}
+
+.tab-control .previous-button{
+    left: 5%;
+}
+.tab-control .next-button{
+    right: 5%
+}
+ 
+#portfolio{
+    margin-left: -3rem;
+    margin-right: -3rem;
+    
+    padding: -3rem;
+    margin-top: 3rem;
+}
+
+
+.jumbotron{
+    border-radius: 0;
+    padding: 3rem 0 2rem;
+}
+
+h3.heading{
+    font-size: 1.9rem;
+    font-weight: bold;
+    padding-bottom: 1.9rem;
+
+}
+
+.heading-underline{
+    width:3rem;
+    height: .2rem;
+    background-color:green;
+    margin: 0 auto 1.5rem;
+}
+
+
+.portfolio img{
+    height: 300px;
+    width: 110%;
+
+}
+.portfolio img:hover{
+    transform: scale(1.2);
+    cursor: zoom-in;
+}
+
+.row.no-padding [class*=col-]{
+    padding: 0;
+}
+
+
+.portfolio{
+    overflow: hidden;
+}
+
+.narrow{
+    margin-top: 1rem;
+}
+
+.team #heading{
+    margin-top: 5rem;
+}
+
+/* .card {
+    margin-top: 2rem;
+    margin-left: 10rem;
+} */
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+footer img{
+    background-color: white;
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+footer hr{
+  border-top: 2px solid rgb(247, 239, 239);
+  width: 95%;
+
+}
+
+.fa-facebook{
+    color: white;
+}
+
+.fa-twitter-square{
+    color: white;
+}
+.fa-instagram{
+color: white;
+}
+
+.fa-facebook:hover { 
+   transition: 1s ease;
+    color: blue;
+}
+   
+.fa-twitter-square:hover{
+        transition: 1s ease;
+        color: blueviolet
+}
+
+.fa-instagram:hover{
+    transition: 1s ease;
+        color: rgb(236, 100, 100);
+    }
+.social a{
+    font-size: 2em;
+    padding: 1.5rem;
+}
